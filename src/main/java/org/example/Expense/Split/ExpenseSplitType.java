@@ -1,4 +1,7 @@
-package org.example.Expense;
+package org.example.Expense.Split;
 
-public class ExpenseSplitType {
+public enum ExpenseSplitType {
+    EQUAL_SPLIT,
+    UNEQUAL_SPLIT,
+    PERCENTAGE_SPLIT
 }

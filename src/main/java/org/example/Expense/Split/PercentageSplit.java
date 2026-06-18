@@ -1,4 +1,10 @@
 package org.example.Expense.Split;
 
-public class PercentageSplit {
+import java.util.List;
+
+public class PercentageSplit implements ExpenseSplit{
+    @Override
+    public boolean validateRequest(List<Split> splits, double amount) {
+        return false;
+    }
 }
